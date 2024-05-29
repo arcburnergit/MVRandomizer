@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FTL>
+<mod:findLike type="sectorDescription">
+	<mod:findLike type="event">
+    <mod:removeTag/>
+  </mod:findLike>
+	<mod:findLike type="rebelBeacon">
+    <mod:removeTag/>
+  </mod:findLike>
+	<mod:findLike type="exitBeacon">
+    <mod:removeTag/>
+  </mod:findLike>
+	<mod:findLike type="priorityEvent">
+    <mod:removeTag/>
+  </mod:findLike>
+	<mod:findLike type="rarityList">
+    <mod:removeTag/>
+  </mod:findLike>
+	<!--mod:findLike type="startBeacon">
+    <mod:setValue>RANDOM_ALL_ENTRY_EVENTS</mod:setValue>
+  </mod:findLike-->
+  <mod-append:rarityList>
+    
+		<!--findable-->
+		<blueprint name="obelisk" rarity="1" />
+		<blueprint name="cognitive" rarity="1" />
+		<blueprint name="lanius_augmented" rarity="1" />
+		
+		<blueprint name="ANCIENT_LASER" rarity="1" />
+		<blueprint name="ANCIENT_LASER_2" rarity="1" />
+		<blueprint name="ANCIENT_LASER_3" rarity="1" />
+		<blueprint name="ANCIENT_MISSILES" rarity="1" />
+		<blueprint name="ANCIENT_HAVOC" rarity="1" /> <!--reward only from the dynasty event-->
+		<blueprint name="ANCIENT_BEAM" rarity="1" />
+		<blueprint name="ANCIENT_BEAM_2" rarity="1" />
+		<blueprint name="ANCIENT_BEAM_3" rarity="1" />
+		<blueprint name="ANCIENT_FOCUS" rarity="1" />
+		<blueprint name="ANCIENT_FOCUS_2" rarity="1" />
+		<blueprint name="ANCIENT_BOMB" rarity="1" />
+		<blueprint name="ANCIENT_STUN" rarity="1" />
+		<blueprint name="ANCIENT_ION_1" rarity="1" />
+		<blueprint name="ANCIENT_ION_2" rarity="1" />
+		
+		<blueprint name="ANCIENT_COMBAT_LASER" rarity="1" />
+		<blueprint name="ANCIENT_COMBAT_LASER_2" rarity="1" />
+		<blueprint name="ANCIENT_COMBAT_ION" rarity="1" />
+		<blueprint name="ANCIENT_COMBAT_MISSILE" rarity="1" />
+		
+		<blueprint name="ANCIENT_DEFENSE_1" rarity="1" />
+		
+		<blueprint name="ATOM_BOARDER" rarity="1" />
+		<blueprint name="DIRECTOR" rarity="1" />
+		<blueprint name="MENDER" rarity="1" />
+		
+		<!--<blueprint name="ANCIENT_COMBAT_EQUALIZER" rarity="1"/> not sold cause quest reward at start-->
+		<blueprint name="ANCIENT_COMBAT_ASB" rarity="1" />
+		<blueprint name="ANCIENT_PREIGNITE" rarity="1" /> <!--temp removed-->
+		<blueprint name="ANCIENT_REPLICATOR" rarity="1" />
+		<blueprint name="ANCIENT_PROTECTANT" rarity="1" />
+		<blueprint name="ANCIENT_DNA" rarity="1" />
+		<blueprint name="ANCIENT_SHIELD" rarity="1" />
+		
+		
+		<blueprint name="KERNEL_1" rarity="1" />
+		<blueprint name="KERNEL_2" rarity="1" />
+		<blueprint name="KERNEL_HEAVY" rarity="1" />
+		<blueprint name="KERNEL_CHAIN" rarity="1" />
+		<blueprint name="KERNEL_CHARGE" rarity="1" />
+		<blueprint name="KERNEL_FIRE" rarity="1" />
+
+		<blueprint name="BOMB_LOCK" rarity="1" />
+		<blueprint name="CRYSTAL_BURST_1" rarity="1" />
+		<blueprint name="CRYSTAL_BURST_2" rarity="1" />
+		<blueprint name="CRYSTAL_HEAVY_1" rarity="1" />
+		<blueprint name="CRYSTAL_HEAVY_2" rarity="1" />
+		<blueprint name="CRYSTAL_STUN" rarity="1" />
+		<blueprint name="CRYSTAL_SHOTGUN" rarity="1" />
+		<blueprint name="CRYSTAL_CHARGEGUN" rarity="1" />
+		
+		<blueprint name="SPORE_1" rarity="1" />
+		<blueprint name="SPORE_2" rarity="1" />
+		<blueprint name="SPORE_HEAVY" rarity="1" />
+		<blueprint name="SPORE_CHAIN" rarity="1" />
+		<blueprint name="SPORE_STUN" rarity="1" />
+		<blueprint name="GRAZIER_BATTLE" rarity="1" />
+		<blueprint name="PRODUCER" rarity="1" />
+		<blueprint name="CONSTRUCTOR" rarity="1" />
+    
+		<blueprint name="SENTRY_NORMAL" rarity="1" />
+		<blueprint name="SENTRY_MIND" rarity="1" />
+		<blueprint name="SENTRY_HEAL" rarity="1" />
+		<blueprint name="SENTRY_FROST" rarity="1" />
+		<blueprint name="SENTRY_VAMP" rarity="1" />
+
+
+    
+		<blueprint name="FROST_CHARGEGUN" rarity="1" />
+		<blueprint name="SNIPER" rarity="1" />
+		<blueprint name="LASER_LIGHT_CHARGEGUN" rarity="1" />
+		<blueprint name="CRYSTAL_BURST_FIRE" rarity="1" />
+
+		<blueprint name="ION_CHAIN_CHARGEGUN" rarity="1" />
+
+		<blueprint name="BEAM_BATTERY" rarity="1" />
+		<blueprint name="BEAM_ADAPT_3" rarity="1" />
+		<blueprint name="BIG_ION" rarity="1" />
+		<blueprint name="GASTER_BLASTER" rarity="1" />
+
+		<blueprint name="MISSILES_OBSIDIAN" rarity="1" />
+		<blueprint name="UNSPOOLER" rarity="1" />
+		<blueprint name="MINELAUNCHER_GIANT" rarity="1" />
+		<blueprint name="STRAWBERRY" rarity="1" />
+		<blueprint name="BOMB_CONSERVRECYCLER" rarity="1" />
+		<blueprint name="BOMB_DRAIN" rarity="1" />
+		<blueprint name="BOMB_ELITE" rarity="1" />
+		
+		<blueprint name="SHOTGUN_STEEL" rarity="1" />
+		<blueprint name="SLOTGUN" rarity="1" />
+		<blueprint name="SHOTGUN_TOGGLE_FIRE" rarity="1" />
+		<blueprint name="SHELL_LAUNCHER" rarity="1" />
+
+		<!--no elite crystals/kernels/spores to avoid clutter-->
+		<blueprint name="LOOT_UNION_1" rarity="1" />
+		<blueprint name="LOOT_MILITIA_1" rarity="1" />
+		<blueprint name="LOOT_FEDERATION_1" rarity="1" />
+		<blueprint name="LOOT_COALITION_1" rarity="1" />
+		<blueprint name="LOOT_DUSKBRINGER_1" rarity="1" />
+		<blueprint name="LOOT_FREEMANTIS_1" rarity="1" />
+		<blueprint name="LOOT_LOSTSUN_1" rarity="1" />
+		<blueprint name="LOOT_LOSTSUN_2" rarity="1" />
+		<blueprint name="LOOT_MANTIS_1" rarity="1" />
+		<blueprint name="LOOT_MANTIS_2" rarity="1" />
+		<blueprint name="LOOT_REBEL_1" rarity="1" />
+		<blueprint name="LOOT_ROCK_1" rarity="1" />
+		<blueprint name="LOOT_ZOLTAN_1" rarity="1" />
+		<blueprint name="LOOT_ZOLTAN_2" rarity="1" />
+		<blueprint name="LOOT_SLUG_1" rarity="1" />
+		<blueprint name="LOOT_CLAN_1" rarity="1" />
+		<blueprint name="LOOT_KNIGHT_1" rarity="1" />
+		<blueprint name="LOOT_SHELL_1" rarity="1" />
+		<blueprint name="LOOT_LANIUS_1" rarity="1" />
+		<blueprint name="LOOT_LEECH_1" rarity="1" />
+		<blueprint name="LOOT_CULTIST_1" rarity="1" />
+		<blueprint name="LOOT_DYNASTY_1" rarity="1" />
+		<blueprint name="LOOT_MATH_1" rarity="1" />
+		<blueprint name="LOOT_MATH_2" rarity="1" />
+		<blueprint name="LOOT_MATH_3" rarity="1" />
+		<blueprint name="LOOT_MATH_4" rarity="1" />
+		<blueprint name="LOOT_MATH_5" rarity="1" />
+		<blueprint name="LOOT_MATH_6" rarity="1" />
+		<blueprint name="LOOT_MATH_7" rarity="1" />
+		
+		<blueprint name="CLONE_CANNON" rarity="1" />
+		
+		<!--
+		\\\\\\\\\\\
+		 DRONES
+		\\\\\\\\\\\
+		-->
+		<blueprint name="DEFENSE_TRINITY_PROJECTILE" rarity="1" />
+		<blueprint name="YINYANG_BOARDER" rarity="1" />
+		<blueprint name="SURGEON_BATTLE" rarity="1" />
+		<blueprint name="SALT_MINER" rarity="1" />
+		<blueprint name="HOLODRONE_BATTLE" rarity="1" />
+		
+		<blueprint name="LOOT_ENGI_1" rarity="1" />
+		<blueprint name="LOOT_ENGI_2" rarity="1" />
+		<blueprint name="LOOT_SEPARATIST_1_DEFEND" rarity="1" />
+		<blueprint name="LOOT_AUG_1_AMP2" rarity="1" />
+
+    
+		<!--
+		\\\\\\\\\\\
+		   CREW
+		\\\\\\\\\\\
+		-->
+		<blueprint name="human" rarity="1" />
+		<blueprint name="engi" rarity="1" />
+		<blueprint name="zoltan" rarity="1" />
+		<blueprint name="rock" rarity="1" />
+		<blueprint name="mantis" rarity="1" />
+		<blueprint name="mantis_free" rarity="1" />
+		<blueprint name="shell" rarity="1" />
+		<blueprint name="slug" rarity="1" />
+		<blueprint name="orchid" rarity="1" />
+		<blueprint name="orchid_vampweed" rarity="1" />
+		<blueprint name="crystal" rarity="1" />
+		<blueprint name="lanius" rarity="1" />
+		<blueprint name="phantom" rarity="1" />
+		<blueprint name="leech" rarity="1" />
+		<blueprint name="siren" rarity="1" />
+		<blueprint name="pony" rarity="1" />
+		<blueprint name="spider" rarity="1" />
+		<blueprint name="spider_weaver" rarity="1" />
+		<blueprint name="leech" rarity="1" />
+		
+		<blueprint name="human_medic" rarity="1" />
+		<blueprint name="human_engineer" rarity="1" />
+		<blueprint name="engi_separatist" rarity="1" />
+		<blueprint name="zoltan_devotee" rarity="1" />
+		<blueprint name="zoltan_monk" rarity="1" />
+		<blueprint name="orchid_caretaker" rarity="1" />
+		<blueprint name="rock_outcast" rarity="1" />
+		<blueprint name="rock_commando" rarity="1" />
+		<blueprint name="rock_cultist" rarity="1" />
+		<blueprint name="crystal_liberator" rarity="1" />
+		<blueprint name="shell_mechanic" rarity="1" />
+		<blueprint name="shell_scientist" rarity="1" />
+		<blueprint name="shell_guardian" rarity="1" />
+		<blueprint name="blob" rarity="1" />
+		<blueprint name="techno" rarity="1" />
+		<blueprint name="slug_clansman" rarity="1" />
+		<blueprint name="phantom_goul" rarity="1" />
+		<blueprint name="phantom_wraith" rarity="1" />
+		<blueprint name="phantom_mare" rarity="1" />
+		
+		<blueprint name="human_soldier" rarity="1" />
+		<blueprint name="human_technician" rarity="1" />
+		<blueprint name="engi_defender" rarity="1" />
+		<blueprint name="zoltan_peacekeeper" rarity="1" />
+		<blueprint name="zoltan_martyr" rarity="1" />
+		<blueprint name="orchid_praetor" rarity="1" />
+		<blueprint name="orchid_cultivator" rarity="1" />
+		<blueprint name="mantis_warlord" rarity="1" />
+		<blueprint name="mantis_suzerain" rarity="1" />
+		<blueprint name="rock_crusader" rarity="1" />
+		<blueprint name="crystal_sentinel" rarity="1" />
+		<blueprint name="slug_saboteur" rarity="1" />
+		<blueprint name="slug_ranger" rarity="1" />
+		<blueprint name="shell_radiant" rarity="1" />
+		<blueprint name="lanius_welder" rarity="1" />
+		<blueprint name="phantom_alpha" rarity="1" />
+		<blueprint name="phantom_goul_alpha" rarity="1" />
+		<blueprint name="phantom_mare_alpha" rarity="1" />
+		<blueprint name="phantom_wraith_alpha" rarity="1" />
+		
+		<blueprint name="human_mfk" rarity="1" />
+		<blueprint name="human_angel" rarity="1" />
+		<blueprint name="mantis_bishop" rarity="1" />
+		<blueprint name="rock_paladin" rarity="1" />
+		<blueprint name="slug_knight" rarity="1" />
+		
+		<blueprint name="lanius_augmented" rarity="1" />
+		<blueprint name="cognitive" rarity="1" />
+		<blueprint name="cognitive_advanced" rarity="1" />
+		<!--
+		\\\\\\\\\\\
+		 AUGMENTS
+		\\\\\\\\\\\
+		-->
+		<blueprint name="UNION_JACKETS" rarity="1" />
+		<blueprint name="SLUG_GEL" rarity="1" />
+		<blueprint name="CREW_STIMS" rarity="1" />
+		<blueprint name="SUPER_CREW_STIMS" rarity="1" />
+		<blueprint name="SUZERAIN_CREW_STIMS" rarity="1" />
+		<blueprint name="ENERGY_SHIELD" rarity="1" />
+		<blueprint name="ROCK_ARMOR" rarity="1" />
+		<blueprint name="PALADIN_ARMOR" rarity="1" />
+		<blueprint name="SYSTEM_CASING_NEW" rarity="1" />
+		<blueprint name="NANOBOT_DEFENSE_SYSTEM" rarity="1" />
+		<blueprint name="CRYSTAL_ARMOR" rarity="1" />
+		<blueprint name="TOXIC_GAS" rarity="1" />
+		
+		<blueprint name="SCRAP_COLLECTOR" rarity="1" />
+		<blueprint name="MAGNET_ARM" rarity="1" />
+		<blueprint name="DRONE_RECOVERY" rarity="1" />
+		<blueprint name="REPAIR_ARM" rarity="1" />
+		<blueprint name="EX_AUTO_COOLDOWN" rarity="1" />
+		<blueprint name="EX_SHIELD_RECHARGE" rarity="1" />
+		<blueprint name="EX_CLOAK_FIRE" rarity="1" />
+		<blueprint name="EX_TELEPORT_HEAL" rarity="1" />
+		<blueprint name="EX_DRONE_SPEED" rarity="1" />
+		
+		<blueprint name="GHOST_DUPLICATOR" rarity="1" />
+		<blueprint name="GAMBLING_MACHINE" rarity="1" />
+		<blueprint name="CURA_SURGES_DRONES" rarity="1" />
+		
+		<blueprint name="ANCIENT_REPLICATOR" rarity="1" />
+		<blueprint name="ANCIENT_COMBAT_ASB" rarity="1" />
+		
+		<blueprint name="ADV_SCANNERS" rarity="1" />
+		<blueprint name="FUEL_CONSERVER" rarity="1" />
+		<blueprint name="PRE_SCANNER" rarity="1" />
+		<blueprint name="DISTRACTION_BUOY" rarity="1" />
+		<blueprint name="RECYCLER" rarity="1" />
+		<blueprint name="CREW_OXYGEN" rarity="1" />
+
+    <blueprint name="unique_haynes" rarity="1" />
+    <blueprint name="unique_jerry" rarity="1" />
+    <blueprint name="unique_jerry_gun" rarity="1" />
+    <blueprint name="unique_tully" rarity="1" />
+    <blueprint name="unique_ellie_lvl6" rarity="1" />
+    <blueprint name="unique_ellie_stephan" rarity="1" />
+    <blueprint name="unique_devorak" rarity="1" />
+    <blueprint name="unique_turzil" rarity="1" />
+    <blueprint name="unique_alkali" rarity="1" />
+    <blueprint name="unique_ooj" rarity="1" />
+    <blueprint name="unique_nights" rarity="1" />
+    <blueprint name="unique_slocknog" rarity="1" />
+    <blueprint name="unique_irwin" rarity="1" />
+    <blueprint name="unique_alkram" rarity="1" />
+    <blueprint name="unique_tyrdeo" rarity="1" />
+    <blueprint name="unique_freddy" rarity="1" />
+    <blueprint name="unique_kaz" rarity="1" />
+    <blueprint name="unique_mayeb" rarity="1" />
+    <blueprint name="unique_tyerel" rarity="1" />
+    <blueprint name="unique_ivar" rarity="1" />
+    <blueprint name="unique_dianesh" rarity="1" />
+    <blueprint name="unique_ariadne" rarity="1" />
+    <blueprint name="unique_ruwen" rarity="1" />
+    <blueprint name="unique_tuco" rarity="1" />
+    <blueprint name="rock_elder" rarity="1" />
+    <blueprint name="unique_eater" rarity="1" />
+    <blueprint name="unique_anointed" rarity="1" />
+    <blueprint name="unique_dessius" rarity="1" />
+    <blueprint name="unique_vortigon" rarity="1" />
+    <blueprint name="unique_queen" rarity="1" />
+    <blueprint name="unique_sylvan" rarity="1" />
+    <blueprint name="unique_obyn" rarity="1" />
+    <blueprint name="unique_billy" rarity="1" />
+    <blueprint name="unique_guntput" rarity="1" />
+    <blueprint name="unique_metyunt" rarity="1" />
+    <blueprint name="unique_symbiote" rarity="1" />
+    <blueprint name="unique_tonysr" rarity="1" />
+    <blueprint name="unique_wither" rarity="1" />
+    <blueprint name="ponyc" rarity="1" />
+    <blueprint name="gbeleanor" rarity="1" />
+    <blueprint name="gbpsych" rarity="1" />
+    <blueprint name="gbscoleri" rarity="1" />
+    <blueprint name="gbslimer" rarity="1" />
+    <blueprint name="gbvinz" rarity="1" />
+    <blueprint name="gbzuul" rarity="1" />
+    
+    <blueprint name="spider_venom" rarity="1" />
+    <blueprint name="pony_engi" rarity="1" />
+  </mod-append:rarityList>
+
+  <mod-append:event name="RANDOM_ALL_EVENTS" min="999" max="999" />
+	<mod-append:exitBeacon event="RANDOM_ALL_EXIT_EVENTS" rebelEvent="RANDOM_ALL_REBEL_EVENTS" />
+	<mod-append:rebelBeacon event="RANDOM_ALL_REBEL_EVENTS" nebulaEvent="RANDOM_ALL_REBEL_EVENTS" />
+</mod:findLike>
+
+
+</FTL>

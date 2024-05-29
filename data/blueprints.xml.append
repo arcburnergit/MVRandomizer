@@ -1,0 +1,104 @@
+<FTL>
+<mod:findLike type="weaponBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>2</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="weaponBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>3</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="weaponBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>4</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="weaponBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>5</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+
+
+<mod:findLike type="augBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>2</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="augBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>3</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="augBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>4</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="augBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>5</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+
+
+<mod:findLike type="droneBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>2</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="droneBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>3</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="droneBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>4</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="droneBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>5</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+
+
+<mod:findLike type="crewBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>2</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="crewBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>3</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="crewBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>4</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+<mod:findLike type="crewBlueprint">
+	<mod:findLike type="rarity">
+		<mod:selector>5</mod:selector>
+		<mod:setValue>1</mod:setValue>
+	</mod:findLike>
+</mod:findLike>
+</FTL>
